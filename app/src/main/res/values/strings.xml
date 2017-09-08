@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Thessaloniki TourGuide</string>
+    <string name="headline1" translatable="false">THESSALONIKI</string>
+    <string name="headline2" translatable="false">TOUR GUIDE 2017</string>
+    <string name="category1">&#xf277;,What to see</string>
+    <string name="category2">&#xf19c;,History + Arts</string>
+    <string name="category3">&#xf0f5;,Where to eat</string>
+    <string name="category4">&#xf000;,Nightilife</string>
+    <string name="category5">&#xf0fd;,Emergency Services</string>
+    <string name="category1ForDB" translatable="false">sightseeings</string>
+    <string name="category2ForDB" translatable="false">museums</string>
+    <string name="category3ForDB" translatable="false">food</string>
+    <string name="category4ForDB" translatable="false">nightlife</string>
+    <string name="category5ForDB" translatable="false">hospitals</string>
+    <string name="call">&#xf10b;, Call</string>
+    <string name="map">&#xf041;, Open Map</string>
+    <string name="site">&#xf109;, Visit Site</string>
+    <string name="Category1_pager">Sights</string>
+    <string name="Category2_pager">History+Arts</string>
+    <string name="Category3_pager">Where to Eat</string>
+    <string name="Category4_pager">Nightlife</string>
+    <string name="Category5_pager">Emergency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+</resources>

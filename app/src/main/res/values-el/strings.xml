@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thessaloniki TourGuide</string>
+    <string name="call">&#xf10b;, Καλέστε</string>
+    <string name="category1">&#xf277;,Αξιοθέατα</string>
+    <string name="category2">&#xf19c;,Ιστορία + Τέχνες</string>
+    <string name="category3">&#xf0f5;,Πού να φάτε</string>
+    <string name="category4">&#xf000;,Νυχτερινή ζωή</string>
+    <string name="category5">&#xf0fd;,Επείγοντα - Ιατρικά</string>
+    <string name="map">&#xf041;, Χάρτης</string>
+    <string name="site">&#xf109;, Ιστοσελίδα</string>
+    <string name="Category1_pager">Αξιοθέατα</string>
+    <string name="Category2_pager">Ιστορία+Τέχνες</string>
+    <string name="Category3_pager">Φαγητό</string>
+    <string name="Category4_pager">Νυχτερινή Ζωή</string>
+    <string name="Category5_pager">Επείγοντα</string>
+</resources>

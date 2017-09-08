@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:frisson="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ai.thanasakis.uda.tourguide.tourguide.VenueDetailsBinding">
+
+        <com.intrusoft.library.FrissonView
+            android:id="@+id/wave_head_details"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/frissonDetails"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            frisson:alphaValue="10"
+            frisson:src="@drawable/mainlogo2"
+            frisson:tideCount="5"
+            frisson:tideHeight="@dimen/tideHeight"
+            frisson:tintColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_name_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/top_padding"
+            android:includeFontPadding="false"
+            android:text="@string/headline1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/headLine3" />
+
+        <LinearLayout
+            android:id="@+id/linear_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wave_head_details"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/call"
+                style="@style/DetailsButtons"
+                android:layout_marginLeft="@dimen/medium_margin"
+                android:background="@color/colorPlay"
+                android:text="@string/call" />
+
+            <Button
+                android:id="@+id/show_map"
+                style="@style/DetailsButtons"
+                android:background="@color/colorAccent"
+                android:text="@string/map" />
+
+            <Button
+                android:id="@+id/site"
+                style="@style/DetailsButtons"
+                android:background="@color/colorNext"
+                android:text="@string/site" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scroll_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_buttons"
+            android:layout_margin="@dimen/large_margin"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/text_details"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/medium_text" />
+        </ScrollView>
+
+    </RelativeLayout>
+</layout>

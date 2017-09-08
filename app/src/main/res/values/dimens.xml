@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="top_padding">16dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="medium_margin">8dp</dimen>
+    <dimen name="large_margin">12dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="xsmall_text">12sp</dimen>
+    <dimen name="headLine1">48sp</dimen>
+    <dimen name="headLine2">28sp</dimen>
+    <dimen name="headLine3">32sp</dimen>
+    <dimen name="frissonMain">320dp</dimen>
+    <dimen name="frissonDetails">280dp</dimen>
+    <dimen name="tideHeight">50dp</dimen>
+    <dimen name="large_text">18sp</dimen>
+    <dimen name="main_menu_text">22sp</dimen>
+    <dimen name="medium_text">16sp</dimen>
+    <dimen name="car_Buttons_dimen">80dp</dimen>
+    <dimen name="main_menu_list_size">50dp</dimen>
+    <dimen name="main_menu_icon_background">40dp</dimen>
+    <dimen name="venues_list_margin_top">9dp</dimen>
+    <dimen name="venues_list_item_size">88dp</dimen>
+    <dimen name="venues_list_imageView_size">70dp</dimen>
+
+
+</resources>
